@@ -1,0 +1,5 @@
+en:
+  simple_cookies:
+    title: "To make your visit more enjoyable, %{appname} uses cookies."
+    text: "By continuing your navigation on this site, you accept the use of cookies."
+    ok: "OK"
