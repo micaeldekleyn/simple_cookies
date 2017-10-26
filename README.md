@@ -18,11 +18,11 @@ Install assets file in application.js:
 
 And in application.css:
 
-    *= require simple_cookies
+    *= require simple-cookies
 
 Or, if you have application.scss:
 
-    @import "simple_cookies";
+    @import "simple-cookies";
 
 ## Usage
 
