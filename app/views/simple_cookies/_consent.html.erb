@@ -1,0 +1,7 @@
+<% if request.cookies && request.cookies['simple_cookies_consented'] != 'true' %>
+  <div id="simple-cookies" class="<%= klass if klass.present? %>">
+    <h1>Pour rendre votre visite plus agréable, <%= appname %> utilise des cookies.</h1>
+    <p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies.</p>
+    <a href="#" class="simple-cookies-accept">OK</a>
+  </div>
+<% end %>

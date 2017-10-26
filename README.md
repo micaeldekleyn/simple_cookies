@@ -29,17 +29,26 @@ Or, if you have application.scss:
 In your view add
 
 ```ruby
-<%= render 'simple_cookies/consent' %>
+<%= render 'simple_cookies/consent', appname: "321jobs", klass: 'top' %>
 ```
 
-You can add a link to redirect to your policy
+## Default style
 
-```ruby
-<%= render 'simple_cookies/consent', link: '/cookies' %>
-```
+Simple Cookies comes with some customization.
+Here are css class :
 
-You can also add a target parameter to the link
+  full : make simple-cookies box full width of browser. Default is 375px.
 
-```ruby
-= render 'simple_cookies/consent', link: '/cookies', target: '_blank'
-```
+  top || bottom : position the box at the top or bottom of the window.
+
+  content-centered : center content inside the box. Default content is left align.
+
+## CSS class and customization
+
+You can customize the box by overriding css.
+"Simple cookies" contains 4 elements :
+
+  div#simple-cookies
+    h1
+    p
+    a.simple-cookies-accept
