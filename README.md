@@ -29,7 +29,7 @@ Or, if you have application.scss:
 In your view add
 
 ```ruby
-<%= render 'simple_cookies/consent', appname: "321jobs", klass: 'top' %>
+<%= render 'simple_cookies/consent', appname: "App name", klass: 'top' %>
 ```
 
 ## Default style
@@ -46,9 +46,12 @@ Here are css class :
 ## CSS class and customization
 
 You can customize the box by overriding css.
+
 "Simple cookies" contains 4 elements :
 
-  div#simple-cookies
-    h1
-    p
-    a.simple-cookies-accept
+```html
+div#simple-cookies
+  h1
+  p
+  a.simple-cookies-accept
+```
