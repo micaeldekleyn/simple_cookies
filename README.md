@@ -29,7 +29,7 @@ Or, if you have application.scss:
 In your view add
 
 ```ruby
-<%= render 'simple_cookies/consent', appname: "App name", klass: 'top' %>
+<%= render 'simple_cookies/consent', appname: "App name", path: nil, klass: 'top' %>
 ```
 
 ## Default style

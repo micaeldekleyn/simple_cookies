@@ -1,7 +1,11 @@
 <% if request.cookies && request.cookies['simple_cookies_consented'] != 'true' %>
   <section id="simple-cookies" class="<%= klass if klass.present? %>">
     <h1><%=t "simple_cookies.title", appname: appname %></h1>
+    <% if path.present? %>
+    <p><%= I18n.t("simple_cookies.text_with_path", path: path).html_safe %></p>
+    <% else %>
     <p><%=t "simple_cookies.text" %></p>
+    <% end %>
     <a href="#" class="simple-cookies-accept"><%=t "simple_cookies.ok" %></a>
   </section>
 <% end %>

@@ -2,4 +2,5 @@ fr:
   simple_cookies:
     title: "Pour rendre votre visite plus agréable, %{appname} utilise des cookies."
     text: "En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies."
+    text_with_path: "En poursuivant votre navigation sur ce site, vous acceptez l'<a href=\"%{path}\">utilisation de cookies</a>."
     ok: "OK"

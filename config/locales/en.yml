@@ -2,4 +2,5 @@ en:
   simple_cookies:
     title: "To make your visit more enjoyable, %{appname} uses cookies."
     text: "By continuing your navigation on this site, you accept the use of cookies."
+    text: "By continuing your navigation on this site, you accept the <a href=\"%{path}\">use of cookies</a>."
     ok: "OK"
